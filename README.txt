@@ -28,3 +28,5 @@ while IFS= read -r line; do
       echo " LISTLOAD OUTPUT=MAP,MEMBER=$line2" | amblist "//'$line'"  > am$line$line2
     done < authorised_$line     
 done < listapf   
+
+grep -l  " APFCODE:           00000000" am* | xargs rm
