@@ -7,6 +7,19 @@ Amblist map of every MVS load library that runs authorised.
 
 Generated with the following:
 
+USS:
+find / -type f -ext a > listapf
+
+while IFS= read -r line; do
+    echo "Text read from file: $line"
+    base=$(basename $line)
+    echo " LISTLOAD OUTPUT=MAP" | amblist "$line"  > am$base
+done < listapf             
+
+grep -l  " APFCODE:           00000000" am* | xargs rm
+
+
+MVS:
 tsocmd "ex 'jake.rexx(listapf)'" > listapf
 
 while IFS= read -r line; do
