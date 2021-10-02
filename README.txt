@@ -17,6 +17,7 @@ while IFS= read -r line; do
 done < listapf             
 
 grep -l  " APFCODE:           00000000" am* | xargs rm
+grep -l  "BINDER INCLUDE FAILED" am* | xargs rm
 
 
 MVS:
