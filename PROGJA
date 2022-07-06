@@ -1,0 +1,43 @@
+/*****************************************************************/
+/* OTHERS                                                        */
+/*****************************************************************/
+APF ADD
+    DSNAME(KLS210.SKLSLOAD)                              VOLUME(A4PRD2)
+APF ADD
+    DSNAME(CDP210.SHBOLOAD)                              VOLUME(A4PRD2)
+APF ADD
+    DSNAME(AGG710.SAGGLOAD)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(DWW520.SDWWLOAD)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(IQI910.SIQILOAD)                              VOLUME(A4PRD3)
+APF ADD
+    DSNAME(KAN551.SIZDLOAD)                              VOLUME(A4KAN1)
+APF ADD
+    DSNAME(QMFC10.SCQDLOAD)                              VOLUME(A4DBC1)
+APF ADD
+    DSNAME(TWS950.SEQQLMD0)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(CTG920.SCTGAUTH)                              VOLUME(A4PRD3)
+APF ADD
+    DSNAME(HBR8A0.SHBRAUTH)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(IAY510.SIAYAUTH)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(IDIE10.SIDIAUTH)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(CPH530.SCPHAUTH)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(APS460.LINKLIB)                               VOLUME(A4PRD1)
+APF ADD
+    DSNAME(DGA600.SDGALINK)                              VOLUME(A4PRD3)
+APF ADD
+    DSNAME(ELA601.SELALMD)                               VOLUME(A4PRD1)
+APF ADD
+    DSNAME(FMNE10.SIPVMOD1)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(FMNE10.SIPVMODA)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(FMNE10.SFMNMOD1)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(FMNE10.SFMNMODA)                              VOLUME(A4PRD1)
