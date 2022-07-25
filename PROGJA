@@ -41,3 +41,5 @@ APF ADD
     DSNAME(FMNE10.SFMNMOD1)                              VOLUME(A4PRD1)
 APF ADD
     DSNAME(FMNE10.SFMNMODA)                              VOLUME(A4PRD1)
+APF ADD
+    DSNAME(AUT410.SINGMOD1)                              VOLUME(A4PRD1)
